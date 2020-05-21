@@ -19,12 +19,12 @@
 
 
  
-
+//Typography styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-s;
 }
 
-
+//Background gradient
 .navbar, .home-callout{
   //Gradient provided by @_ighosh at uigradients.com
   background: #00B4DB;  /* fallback for old browsers */
@@ -33,33 +33,20 @@ h1, h2, h3 {
 
 }
 
+//Nav styles
 .navbar{
   border: none;
 }
 
-.navbar-default .navbar-brand{
-  color: white;
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+  color: white; 
+  &:hover {    //Using SCSS to nest in the hover component. Based off of Lesson 79
+    color: white;
+    opacity: 0.75;
+  }
 }
 
-.navbar-default .navbar-brand:hover{ 
-  color: white;
-  opacity: 0.75;
-  /*getting rid of hover basically for "DevMatch". Use inspect to find original colors*/
-}
-
-.navbar-default .navbar-nav > li > a{
-  color: white;
-  
-}
-
-.navbar-default .navbar-nav > li > a:hover{
-  color: white;
-  opacity: 0.75;
-    /*getting rid of hover basically for "About". Use inspect to find original colors*/
-
-}
-
-
+//Home page styles
 .home-callout{
   color: white;
   margin-top: -20px;
