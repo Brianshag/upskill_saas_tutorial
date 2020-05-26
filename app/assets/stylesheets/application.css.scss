@@ -53,6 +53,21 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar{    //when you shrink page, changing icon color to white
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus{
+    background-color: #00B4DB;
+}
+  }
+
+
+  
+
+
 //Home page styles
 .home-callout{
   color: white;
