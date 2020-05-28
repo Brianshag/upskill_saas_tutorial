@@ -5,8 +5,9 @@
     
    
     <div class="col-md-4 col-md-offset-4">  <!--the offset is used to move the forms 4 columns to the right-->
+      <%= flash[:notice] %>
       <div class="well">
-        <%= form_for "/contacts" do |f| %>
+        <%= form_for @contact do |f| %>
           <div class="form-group">
              <%= f.label :name %>
              <%= f.text_field :name, class: 'form-control' %>
