@@ -37,6 +37,11 @@
       </div>
     </nav>
     
+  <div class="container">  
+    <% flash.each do |type, msg| %>      <!--this loop is for those error messages. Lesson 113-->
+      <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+    <% end %>
+  </div>
   
    <%= yield %>
     
