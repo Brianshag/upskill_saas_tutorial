@@ -58,7 +58,7 @@ GEM
     crass (1.0.6)
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.12.2)
+    ffi (1.13.0)
     font-awesome-sass (4.6.2)
       sass (>= 3.2)
     globalid (0.4.2)
@@ -84,7 +84,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.14.0)
+    minitest (5.14.1)
     multi_json (1.14.1)
     nio4r (1.2.1)
     nokogiri (1.10.9)
@@ -161,7 +161,7 @@ GEM
       railties (>= 5.0)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
 
 PLATFORMS
   ruby
